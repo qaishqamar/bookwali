@@ -1,0 +1,165 @@
+body {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: normal;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.btn {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+/* menu settings */
+.form-inline {
+  flex-flow: nowrap;
+}
+.nav-link {
+  font-size: 0.85rem;
+}
+.dropdown-item {
+  font-size: 0.85rem;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+/* Greet dot notification */
+.cart-items-exist {
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #2bb900;
+  display: inline-block;
+  /* position: absolute;
+  right: 5%;
+  top: 5%; */
+}
+
+/* Cart Styles */
+.cart-items .form-control {
+  display: inline;
+  width: auto;
+  height: auto;
+  padding: 0.4rem 0.9rem;
+}
+.cart-items .btn {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+.footer-links {
+  color: #fff;
+}
+.footer-links:hover,
+.footer-links:active,
+.footer-links:focus {
+  color: #bbb;
+}
+
+.contact-links {
+  color: #00db37;
+}
+.contact-links:focus,
+.contact-links:hover,
+.contact-links:active {
+  color: #02bb9c;
+}
+
+@media (max-width: 992px) {
+  .carousel-caption h2 {
+    font-size: 3.5vmin;
+  }
+}
+@media (max-width: 509px) {
+  /* .navbar-toggler {
+    margin: auto;
+  } */
+  .card-body {
+    padding: 0.5rem;
+  }
+  .form-inline {
+    width: 100%;
+  }
+}
+.keyword-bar-items a {
+  width: max-content;
+  display: block;
+}
+.keyword-bar-items a:hover {
+  color: #fff;
+}
+.keyword-bar-items {
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.45rem;
+  font-size: 0.84rem;
+  border-radius: 99rem;
+  transition: color 240ms ease, background 320ms ease;
+  width: max-content;
+}
+.keyword-bar-items:hover, .keyword-bar-items:focus, .keyword-bar-items:active {
+  background-color: #ff0135;
+}
+.chargeValue{
+  color: #3238a8;
+  margin-left: 0.5rem;
+}
